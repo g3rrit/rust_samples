@@ -1,0 +1,12 @@
+[package]
+name = "enum_tag"
+version = "0.1.0"
+authors = ["pearisgreen <gerrit.proessl@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+enum_tag_lib = { path = "enum_tag_lib" }
+
+[[bin]]
+name = "enum_tag"
+path = "enum_tag.rs"
